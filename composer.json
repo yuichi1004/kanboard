@@ -13,7 +13,8 @@
         "symfony/console" : "@stable",
         "symfony/event-dispatcher" : "~2.6",
         "fguillot/simpleLogger" : "0.0.1",
-        "christian-riesen/otp": "1.4"
+        "christian-riesen/otp": "1.4",
+        "hnesk/php-peg": "~1.0"
     },
     "autoload" : {
         "psr-0" : {

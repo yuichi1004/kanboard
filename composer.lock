@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "466ee3928d7d3b0bbee15de3b4c76676",
+    "hash": "327db314880b5f3a6e3cce59c87f5aae",
     "packages": [
         {
             "name": "christian-riesen/base32",
@@ -190,12 +190,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fguillot/picoDb.git",
-                "reference": "cd6a571d2de5c0b30d538d7cd6603dc16b25b844"
+                "reference": "bc75f3dab79bf6beb6e07b5ace0252e1d0d374fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fguillot/picoDb/zipball/cd6a571d2de5c0b30d538d7cd6603dc16b25b844",
-                "reference": "cd6a571d2de5c0b30d538d7cd6603dc16b25b844",
+                "url": "https://api.github.com/repos/fguillot/picoDb/zipball/bc75f3dab79bf6beb6e07b5ace0252e1d0d374fa",
+                "reference": "bc75f3dab79bf6beb6e07b5ace0252e1d0d374fa",
                 "shasum": ""
             },
             "require": {
@@ -209,7 +209,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "WTFPL"
+                "MIT"
             ],
             "authors": [
                 {
@@ -219,7 +219,7 @@
             ],
             "description": "Minimalist database query builder",
             "homepage": "https://github.com/fguillot/picoDb",
-            "time": "2015-03-27 02:21:18"
+            "time": "2015-04-14 01:59:06"
         },
         {
             "name": "fguillot/simple-validator",
@@ -227,12 +227,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fguillot/simpleValidator.git",
-                "reference": "5ebdb6df4c5f3aa2539b633eb4ae94c9e8c4ada7"
+                "reference": "2f30078bb6e688cf123c150d58fda322792a1532"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fguillot/simpleValidator/zipball/5ebdb6df4c5f3aa2539b633eb4ae94c9e8c4ada7",
-                "reference": "5ebdb6df4c5f3aa2539b633eb4ae94c9e8c4ada7",
+                "url": "https://api.github.com/repos/fguillot/simpleValidator/zipball/2f30078bb6e688cf123c150d58fda322792a1532",
+                "reference": "2f30078bb6e688cf123c150d58fda322792a1532",
                 "shasum": ""
             },
             "require": {
@@ -250,13 +250,12 @@
             ],
             "authors": [
                 {
-                    "name": "Frédéric Guillot",
-                    "homepage": "http://fredericguillot.com"
+                    "name": "Frédéric Guillot"
                 }
             ],
             "description": "The most easy to use validator library for PHP :)",
             "homepage": "https://github.com/fguillot/simpleValidator",
-            "time": "2015-02-14 21:04:14"
+            "time": "2015-04-14 02:03:43"
         },
         {
             "name": "fguillot/simpleLogger",
@@ -294,6 +293,60 @@
             "description": "PHP library to write logs (compatible with PSR-3)",
             "homepage": "https://github.com/fguillot/simpleLogger",
             "time": "2015-01-02 03:40:21"
+        },
+        {
+            "name": "hnesk/php-peg",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hnesk/php-peg.git",
+                "reference": "39e01ab73ad832eef54fd45c2e308d9a8a2bd0e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hnesk/php-peg/zipball/39e01ab73ad832eef54fd45c2e308d9a8a2bd0e9",
+                "reference": "39e01ab73ad832eef54fd45c2e308d9a8a2bd0e9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "bin": [
+                "cli.php"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "hafriedlander\\Peg": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT",
+                "GPL-2.0",
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Hamish Friedlander",
+                    "email": "hamish@silverstripe.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Johannes Künsebeck",
+                    "email": "kuensebeck@googlemail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Minimally invasive fork of hafriedlander/php-peg with support for composer autoloading",
+            "homepage": "https://github.com/hnesk/php-peg",
+            "keywords": [
+                "DSL",
+                "compiler",
+                "parser",
+                "peg"
+            ],
+            "time": "2014-11-01 12:32:35"
         },
         {
             "name": "lusitanian/oauth",
@@ -495,17 +548,17 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.6.5",
+            "version": "v2.6.6",
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "53f86497ccd01677e22435cfb7262599450a90d1"
+                "reference": "5b91dc4ed5eb08553f57f6df04c4730a73992667"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/53f86497ccd01677e22435cfb7262599450a90d1",
-                "reference": "53f86497ccd01677e22435cfb7262599450a90d1",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/5b91dc4ed5eb08553f57f6df04c4730a73992667",
+                "reference": "5b91dc4ed5eb08553f57f6df04c4730a73992667",
                 "shasum": ""
             },
             "require": {
@@ -549,11 +602,11 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2015-03-13 17:37:22"
+            "time": "2015-03-30 15:54:10"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.6.5",
+            "version": "v2.6.6",
             "target-dir": "Symfony/Component/EventDispatcher",
             "source": {
                 "type": "git",
@@ -614,17 +667,17 @@
     "packages-dev": [
         {
             "name": "symfony/stopwatch",
-            "version": "v2.6.5",
+            "version": "v2.6.6",
             "target-dir": "Symfony/Component/Stopwatch",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Stopwatch.git",
-                "reference": "ba4e774f71e2ce3e3f65cabac4031b9029972af5"
+                "reference": "5f196e84b5640424a166d2ce9cca161ce1e9d912"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Stopwatch/zipball/ba4e774f71e2ce3e3f65cabac4031b9029972af5",
-                "reference": "ba4e774f71e2ce3e3f65cabac4031b9029972af5",
+                "url": "https://api.github.com/repos/symfony/Stopwatch/zipball/5f196e84b5640424a166d2ce9cca161ce1e9d912",
+                "reference": "5f196e84b5640424a166d2ce9cca161ce1e9d912",
                 "shasum": ""
             },
             "require": {
@@ -660,7 +713,7 @@
             ],
             "description": "Symfony Stopwatch Component",
             "homepage": "http://symfony.com",
-            "time": "2015-02-24 11:52:21"
+            "time": "2015-03-22 16:55:57"
         }
     ],
     "aliases": [],
@@ -674,7 +727,8 @@
     "prefer-stable": false,
     "platform": {
         "php": ">=5.3",
-        "ext-mbstring": "*"
+        "ext-mbstring": "*",
+        "ext-gd": "*"
     },
     "platform-dev": []
 }
